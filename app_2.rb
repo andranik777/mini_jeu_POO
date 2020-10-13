@@ -40,7 +40,6 @@ while (player_1.life_points > 0 && (bot_player.life_points>0 || bot_player2.life
 
     when "1"
         player_1.attacks(bot_player2)
-    puts "salut"
     end
     enemies.each{|m| m.attacks(player_1) if m.life_points >0}
     
